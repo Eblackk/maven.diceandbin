@@ -1,11 +1,14 @@
 package com.github.curriculeon;
 
 public class Dice {
+    Integer numberOfDie;
+    Integer numberOfFaces;
 
     /**
      * @param numberOfDie - number of die-objects to be contained
      */
     public Dice(Integer numberOfDie) {
+
         this(numberOfDie, 6);
     }
 
@@ -14,6 +17,7 @@ public class Dice {
      * @param numberOfFaces - number of faces on a single die-object
      */
     public Dice(Integer numberOfDie, Integer numberOfFaces) {
+
     }
 
     /**

@@ -2,16 +2,16 @@ package com.github.curriculeon;
 
 public class Bin {
     Integer faceValueToTrack;
-    Integer numberOfOccurences;
+    Integer numberOfOccurrences;
     public Bin(Integer faceValueToTrack) {
         this. faceValueToTrack = faceValueToTrack;
-        this.numberOfOccurences = 0;
+        this.numberOfOccurrences = 0;
 
     }
 
     Bin(Integer faceValueToTrack, Integer numberOfOccurrences) {
         this.faceValueToTrack = faceValueToTrack;
-        this. numberOfOccurences = numberOfOccurrences;
+        this.numberOfOccurrences = numberOfOccurrences;
     }
 
     public Integer getFaceValueToTrack() {
@@ -20,10 +20,10 @@ public class Bin {
 
     public Integer getNumberOfOccurrences() {
 
-        return this.numberOfOccurences;
+        return this.numberOfOccurrences;
     }
 
     public void increment() {
-        numberOfOccurences = numberOfOccurences + 1;
+        numberOfOccurrences = numberOfOccurrences + 1;
     }
 }
