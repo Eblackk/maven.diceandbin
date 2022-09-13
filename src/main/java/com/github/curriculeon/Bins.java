@@ -27,6 +27,8 @@ public class Bins {
 
 
     public void incrementBin(Integer faceValueToIncrement) {
+        Bin bin = getBin(faceValueToIncrement);
+        bin.increment();
     }
 
     public Bin getBin(Integer faceValueOfBin) {
@@ -50,6 +52,6 @@ public class Bins {
     }
 
     public Bin[] getBins() {
-        return null;
+        return this.binArray;
     }
 }
